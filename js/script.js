@@ -54,7 +54,7 @@ function mostrarPokemon(poke, version) {
             </div>
             <div class="pokemon-type">
                 ${types}
-                <p class="version-${poke.id}" id="version-${poke.id}" onclick="shiny(${poke.id})">${versionTag}</p>
+                <p class="shiny version-${poke.id}" id="version-${poke.id}" onclick="shiny(${poke.id})">${versionTag}</p>
             </div>
             <div class="pokemon-stats">
                 <p class="stat">${poke.height}M</p>
